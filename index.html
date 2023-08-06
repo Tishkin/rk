@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="css/main.css" />
+		<title>ToDo List</title>
+	</head>
+	<body>
+
+		<div class="wrapper-card">
+
+			<form id="form" class="input-form" action="javascript:void(0);">
+				<input type="text" id="newTask" class="form-control mr-1" />
+				<button class="btn btn-primary">Добавить Задачу</button>
+			</form>
+
+			<ul class="todo-list" id="tasksList">
+
+			</ul>
+
+		</div>
+
+		<script src="./js/todo/model.js" type="module"></script>
+		<script src="./js/todo/view.js" type="module"></script>
+		<script src="./js/todo/controller.js" type="module"></script>
+
+	</body>
+</html>
